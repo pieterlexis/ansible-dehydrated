@@ -51,6 +51,8 @@ dehydrated_key_algo: rsa
 dehydrated_acme_api: https://acme-v02.api.letsencrypt.org/directory
 #dehydrated_acme_api: https://acme-staging.api.letsencrypt.org/directory
 
+# Whether or not to accept the terms of the acme provider
+dehydrated_accept_terms: yes
 
 # url and revison for checkout dehydrated
 dehydrated_repourl: https://github.com/dehydrated-io/dehydrated.git

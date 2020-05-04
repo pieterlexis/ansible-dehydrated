@@ -1,0 +1,8 @@
+---
+- block:
+    - name: Accept the ACME provider TOS
+      command: '{{ dehydrated_userhome }}/dehydrated/dehydrated --register --accept-terms -f {{ dehydrated_configdir }}/config'
+      args:
+        creates:
+          '{{ dehydrated_configdir }}/accounts/'
+  when: dehydrated_accept_terms | bool
