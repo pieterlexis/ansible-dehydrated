@@ -48,7 +48,7 @@ dehydrated_key_algo: rsa
 
 
 # The acme api to call, for tests use staging api
-dehydrated_acme_api: https://acme-v01.api.letsencrypt.org/directory
+dehydrated_acme_api: https://acme-v02.api.letsencrypt.org/directory
 #dehydrated_acme_api: https://acme-staging.api.letsencrypt.org/directory
 
 
